@@ -1,0 +1,7 @@
+ultralytics >= 8.2.0
+gradio
+torch >= 2.3.0
+reportlab
+seaborn
+pandas
+matplotlib
