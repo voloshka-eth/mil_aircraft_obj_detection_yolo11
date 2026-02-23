@@ -8,7 +8,7 @@ torch.serialization.add_safe_globals([DetectionModel, Sequential])
 
 if __name__ == "__main__":
 
-    model = YOLO('yolo11n.pt')
+    model = YOLO('yolo11s.pt')
 
     results = model.train(
         data='Jet Detection/data.yaml',
